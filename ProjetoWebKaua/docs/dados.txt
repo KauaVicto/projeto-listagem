@@ -1,0 +1,6 @@
+Sherlock Holmes;Detetive Sociopata Altamente Funcional!;Mistério;5;true
+The Simpsons;Conta a história de uma família amarela.;Desenho Animado;5;true
+WandaVision;Conta com Wanda ressuscitou Visão e como ela enfeitiçou uma cidade inteira.;Heróis;4;true
+Star Wars 1 - 9;Batalhas entre a primeira ordem e a rebelião no universo;Ficção Científica;4;true
+Pantera Negra;País evoluido onde os negros prevalecem;Ficção Científica;0;false
+Grey's Anatomy;Um hospital onde muita gente morre e onde os casos mais bizarros aparecem.;Drama Médico;4;false

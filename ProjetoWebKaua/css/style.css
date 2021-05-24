@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url("../img/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* #153140 */
+
+header.container{
+    width: 100vw;
+    height: 140px;
+    background-color: #0D1F2D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.container .logo{
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header.container .menu{
+    width: 18vw;
+    margin-right: 5rem;
+}
+
+header.container .menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header.container .menu ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    transition: 0.1s all ease-in-out;
+}
+
+header.container .menu ul li a:hover{
+    border-bottom: 3px solid white;
+}
+
+/* MAIN */
+
+main {
+    font-family: "Poppins";
+    margin: 30px auto 0 auto;
+    width: 50vw;
+    min-height: 300px;
+    border: 2px groove #ccc;
+    background-color: rgba(13, 31, 45, 0.451);
+    padding: 10px;
+    border-radius: 9px;
+}
+
+main h1{
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+/* LISTA */
+
+.lista ul h2{
+    font-size: 1.8rem;
+    color: #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 5px;
+}
+
+.lista ul h2 a{
+    text-decoration: none;
+}
+
+.lista ul{
+    list-style: none;
+}
+
+.lista ul li{
+    background-color: rgba(13, 31, 45, 0.78);
+    margin: 10px;
+}
+
+.lista ul li span{
+    padding: 10px;
+}
+
+.lista ul li span, .lista ul li .nota, .lista ul li .assistiu{
+    font-size: 1.4rem;
+}
+
+.lista .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.lista h3{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.lista .pagina{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lista .pagina a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgba(13, 31, 45, 0.78);
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: .3s all ease-in-out;
+}
+
+.lista .pagina a:hover{
+    background-color: rgb(8, 16, 22);
+}
+
+/* CADASTRAR */
+
+.cadastro{
+    width: 30vw;
+}
+
+.cadastro form{
+    width: 80%;
+    height: 505px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro form label{
+    font-size: 1.6rem;
+}
+
+.cadastro form .text{
+    margin: 10px;
+    width: 100%;
+}
+
+.cadastro form input[type = "text"]{
+    width: 100%;
+    background-color: #161923;
+    padding: 8px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    transition: .3s all ease-in-out;
+}
+
+.cadastro form input:focus, .cadastro form textarea:focus{
+    background-color: #101118;
+}
+
+.cadastro form input[type = "number"]{
+    background-color: #161923;
+    outline: none;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    width: 100%;
+}
+
+.cadastro form .labels{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.cadastro form .labels div:first-child{
+    width: 30%;
+}
+
+.cadastro form textarea{
+    background-color: #161923;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    transition: .3s all ease-in-out;
+}
+
+.cadastro form button{
+    font-family: "Poppins";
+    background-color: #161923;
+    width: 135px;
+    padding: 8px 0;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    transition: .3s all ease-in-out;
+    outline: none;
+}
+
+.cadastro form button:hover{
+    width: 150px;
+    background-color: #0c1120;
+}
+
+.cadastro .msg{
+    background-color: rgba(13, 31, 45, 0.795);
+    font-size: 1.6rem;
+    padding: 8px 10px;
+    margin: 10px 0;
+}
+.cadastro .erro{
+    background-color: rgba(45, 13, 21, 0.589);
+    font-size: 1.6rem;
+    padding: 8px 10px;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+
+.rodape {
+    width: 100vw;
+    height: 150px;
+    background-color: #213886;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape .texto span{
+    font-size: 2.4rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+.rodape .contato{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape h2{
+    font-size: 2.8rem;
+    padding: 10px;
+    margin-left: 5rem;
+    font-family: "Poppins";
+}
+
+.rodape .icones{
+    display: grid;
+    grid-template-columns: 163px 90px;
+    grid-template-rows: 55px 55px;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.rodape .icones .social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.4s all ease-out;
+    position: relative;
+    left: 0;
+    cursor: pointer;
+}
+.rodape .icones .esqw:hover{
+    position: relative;
+    left: -2rem;
+}
+.rodape .icones .esqg:hover{
+    position: relative;
+    left: -10.0rem;
+}
+.rodape .icones .dir:hover{
+    position: relative;
+    left: -5px;
+    cursor: pointer;
+}
+
+.rodape .icones .social::after{
+    font-size: 1.4rem;
+    padding: 15px 4px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+.rodape .icones .rede1:hover::after{
+    content: "(77)99983-1299";
+}
+.rodape .icones .rede2:hover::after{
+    content: "@kaua_41_";
+}
+.rodape .icones .rede3:hover::after{
+    content: "kauavictor259@gmail.com";
+    padding: 15px;
+}
+.rodape .icones .rede4:hover::after{
+    content: "/kauavicto";
+}
+
+.rodape .icones img{
+    width: 30px;
+}
